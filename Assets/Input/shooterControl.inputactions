@@ -1,0 +1,34 @@
+{
+    "name": "shooterControl",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "f10eb2aa-5108-4c12-9eb5-fa4d37737450",
+            "actions": [
+                {
+                    "name": "Look",
+                    "type": "Value",
+                    "id": "b7791edf-b2c1-4d35-b35e-c4477bbb74d3",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "734fb722-bc92-48f1-b291-9c389c34e2b2",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
